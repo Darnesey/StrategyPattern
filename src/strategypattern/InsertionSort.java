@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author James Hunter
  */
-public class InsertionSort implements ISortingBehavior{
+public class InsertionSort implements ISortingBehavior {
 
     @Override
     public ArrayList<Integer> sort(ArrayList<Integer> numbers) {

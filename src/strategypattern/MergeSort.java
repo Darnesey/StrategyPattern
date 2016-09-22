@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author James Hunter
  */
-public class MergeSort implements ISortingBehavior{
+public class MergeSort implements ISortingBehavior {
 
     public MergeSort() {
     }

@@ -10,8 +10,10 @@ package strategypattern;
  * @author James Hunter
  */
 public class MyMath extends MathSoftware {
-    
-    ISortingBehavior sortBehavior = new BubbleSort();
+
+    public MyMath() {
+        sortBehavior = new BubbleSort();
+    }
     
     
 }

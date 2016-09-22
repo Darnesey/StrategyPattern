@@ -9,8 +9,11 @@ package strategypattern;
  *
  * @author James Hunter
  */
-public class Mathematica extends MathSoftware{
+public class Mathematica extends MathSoftware {
+
+    public Mathematica() {
+        sortBehavior = new InsertionSort();
+    }
     
-    ISortingBehavior sortBehavior = new InsertionSort();
     
 }

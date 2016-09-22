@@ -10,10 +10,8 @@ package strategypattern;
  * @author James Hunter
  */
 public class MyTool extends MathSoftware{
-    
-    
-    ISortingBehavior sortBehavior = new MergeSort();
-    
-    
-    
+
+    public MyTool() {
+        ISortingBehavior sortBehavior = new MergeSort();
+    }
 }
