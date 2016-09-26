@@ -19,7 +19,7 @@ public abstract class MathSoftware {
         this.sortBehavior = sortBehavior;
     }
     
-    public void mathSort(ArrayList<Integer> numbers){
+    public void mathSort(int[] numbers){
         numbers = sortBehavior.sort(numbers);
         // print here or return?
     }

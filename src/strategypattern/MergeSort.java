@@ -6,6 +6,7 @@
 package strategypattern;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  *
@@ -18,7 +19,7 @@ public class MergeSort implements ISortingBehavior {
 
     
     @Override
-    public ArrayList<Integer> sort(ArrayList<Integer> numbers) {
+    public int[] sort(int[] numbers) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
@@ -49,7 +50,6 @@ public class MergeSort implements ISortingBehavior {
     }
 
     public static Integer[] mergeSort(Integer[] num){
-        sortSteps = new SortSteps();
         if ( num.length == 1 )
             return num;
         Integer[] left = mergeSort(getleft(num));

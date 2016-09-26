@@ -14,5 +14,5 @@ import java.util.ArrayList;
 public interface ISortingBehavior {
     
     // Doesn't matter what we use for the array
-    public ArrayList<Integer> sort(ArrayList<Integer> numbers);
+    public int[] sort(int[] numbers);
 }
